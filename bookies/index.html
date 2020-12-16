@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <title>Bookies</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="edit-book">
+      <h1>Hello.</h1>
+      <h3>Welcome back! Kindly update your book details.</h3>
+      <div id="user-ip-edit">
+        <p>Book</p>
+        <input type="text" id="user-book-edit" />
+        <p>Your page</p>
+        <input type="text" id="user-page-edit" />
+        <p>Total pages</p>
+        <input type="text" id="tot-page-edit" />
+        <p id="delete">Delete this book!</p>
+      </div>
+
+      <button id="edit-user-book">Edit this book😍</button>
+
+      <button id="cancel-edit">I'll do this later!🤔</button>
+    </div>
+
+    <div id="add-book">
+      <h1>Hello.</h1>
+      <h3>Welcome! Kindly enter your book details.</h3>
+      <div id="user-ip">
+        <p>Book</p>
+        <input type="text" id="user-book" />
+        <p>Your page</p>
+        <input type="text" id="user-page" />
+        <p>Total pages</p>
+        <input type="text" id="tot-page" />
+      </div>
+
+      <button id="add-user-book">Add this book😍</button>
+
+      <button id="cancel">I'll do this later!🤔</button>
+    </div>
+
+    <div class="user-info" id="user-info">
+      <img src="img/giphy.gif" alt="no avatar" id="user" class="user" />
+      <h2 id="user-name">Track your book</h2>
+      <p id="nickname">Bookies</p>
+      <p id="bio">
+        Press the + icon<br />to add new books.
+      </p>
+    </div>
+<!-- 
+    <div id="footer"><h1 id="foot">Press +<br>to<br>add a book</h1></div> -->
+
+    <div id="input" class="input">
+      <h1 id="add" class="add">+</h1>
+    </div>
+
+    <div class="read-list" id="read-list">
+      <!-- <div id="b1" class="book-info">
+        <div id="book-name">
+          <h1 id="b1-name">Deep Work Guide</h1>
+        </div>
+        <progress id="b1-prog" value="0.2"></progress>
+
+        <div id="book-stats">
+          <h1 id="b1-stats">10 of 100</h1>
+        </div>
+      </div>  -->
+
+      <!-- <div id="b2">
+        <div id="book-name">
+          <h1 id="b1-name">Alchemist</h1>
+        </div>
+        <progress id="b1-prog" value="0.1"></progress>
+
+        <div id="book-stats">
+          <h1 id="b1-stats">280 of 100</h1>
+        </div>
+      </div>
+
+      <div id="b3">
+        <div id="book-name">
+          <h1 id="b1-name">
+            Dark fantasy - A love cum hate story of a true warrior
+          </h1>
+        </div>
+        <progress id="b1-prog" value="0.6"></progress>
+
+        <div id="book-stats">
+          <h1 id="b1-stats">56 of 103</h1>
+        </div>
+      </div> -->
+    </div>
+
+    <script src="script.js"></script>
+  <script src="visuals.js"></script>
+  </body>
+</html>
